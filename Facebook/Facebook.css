@@ -1,0 +1,97 @@
+/* style.css */
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Body background */
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login card */
+.login-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Facebook heading */
+.login-card h2 {
+    color: #1877f2;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Form fields */
+.login-card form input[type="text"],
+.login-card form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Login button */
+.login-card form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-card form button:hover {
+    background-color: #165ecf;
+}
+
+/* Forgot password link */
+.login-card a {
+    display: block;
+    margin: 10px 0;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-card a:hover {
+    text-decoration: underline;
+}
+
+/* Divider */
+.login-card hr {
+    margin: 20px 0;
+    border: 0.5px solid #ddd;
+}
+
+/* Create account button */
+.create-account {
+    width: 100%;
+    padding: 12px;
+    background-color: #42b72a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.create-account:hover {
+    background-color: #36a420;
+}
